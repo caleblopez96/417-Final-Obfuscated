@@ -49,14 +49,14 @@
 /* typography */
 @font-face {
   font-family: "Bank Gothic";
-  src: url("Fonts/bank-gothic-light.ttf") format("truetype");
+  src: url("/Fonts/bank-gothic-light.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Supreme";
-  src: url("Fonts/SUPRRG__.TTF") format("truetype");
+  src: url("/Fonts/SUPRRG__.TTF") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
