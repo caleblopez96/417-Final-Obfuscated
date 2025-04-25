@@ -49,14 +49,14 @@
 /* typography */
 @font-face {
   font-family: "Bank Gothic";
-  src: url("./Fonts/bank-gothic-light.ttf") format("truetype");
+  src: url("/Fonts/bank-gothic-light.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Supreme";
-  src: url("./Fonts/SUPRRG__.TTF") format("truetype");
+  src: url("/Fonts/SUPRRG__.TTF") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -336,12 +336,11 @@ body.night .nav-links a:hover {
   flex-direction: column;
   gap: var(--spacing-lg);
   margin: var(--spacing-lg) 0;
-  padding: var(--spacing-md);
+
   border-radius: var(--border-radius-lg);
 }
 
 #about h2 {
-  text-align: center;
   font-size: var(--font-size-xxl);
   line-height: 3rem;
 }
