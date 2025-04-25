@@ -336,7 +336,7 @@ body.night .nav-links a:hover {
   flex-direction: column;
   gap: var(--spacing-lg);
   margin: var(--spacing-lg) 0;
-  padding: 1.5rem;
+  padding: var(--spacing-md);
   border-radius: var(--border-radius-lg);
 }
 
