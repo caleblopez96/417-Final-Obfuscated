@@ -558,6 +558,7 @@ body.night .guessing-game-right {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease;
+  font-family: var(--primary-font);
 }
 
 .guessing-game-right button:hover {
@@ -1035,6 +1036,7 @@ form button[type="submit"] {
   font-weight: 600;
   cursor: pointer;
   width: 100%;
+  font-family: var(--primary-font);
 }
 
 form button[type="submit"]:hover {
