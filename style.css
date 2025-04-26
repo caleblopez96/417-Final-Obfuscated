@@ -161,7 +161,6 @@ button {
   border: none;
   font-family: var(--primary-font);
   margin: 0 0.5rem;
-  min-height: 40px;
 }
 
 /* header/navbar */
