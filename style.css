@@ -860,8 +860,7 @@ body.night .contact-container {
 }
 
 .contact-container h2 {
-  margin-top: 0;
-  color: var(--accent-color);
+  margin: var(--spacing-md) 0;
 }
 
 .contact-container p {
@@ -932,8 +931,7 @@ body.night #contactForm {
 }
 
 #contactForm h3 {
-  margin-top: 0;
-  margin-bottom: var(--spacing-md);
+  margin: var(--spacing-md);
   color: var(--accent-color);
   font-size: var(--font-size-lg);
   text-align: center;
