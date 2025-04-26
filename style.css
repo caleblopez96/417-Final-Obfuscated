@@ -161,6 +161,7 @@ button {
   border: none;
   font-family: var(--primary-font);
   margin: 0 0.5rem;
+  min-height: 40px;
 }
 
 /* header/navbar */
@@ -418,7 +419,6 @@ body.night #about img {
   padding: 0.75rem 1.25rem;
   border-radius: var(--border-radius-md);
   cursor: pointer;
-
   font-family: var(--primary-font);
   font-weight: bold;
   color: var(--light-text);
@@ -551,14 +551,12 @@ body.night .guessing-game-right {
 
 .guessing-game-right button {
   background-color: var(--accent-color);
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border: none;
+  padding: 0.75rem 1.25rem;
   border-radius: var(--border-radius-md);
-  font-weight: 600;
   cursor: pointer;
-  transition: all 0.2s ease;
   font-family: var(--primary-font);
+  font-weight: bold;
+  color: var(--light-text);
 }
 
 .guessing-game-right button:hover {
