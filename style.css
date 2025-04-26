@@ -516,7 +516,6 @@ body.night .guess-game-left {
   margin-top: 0;
   margin-bottom: 1.5rem;
   font-size: var(--font-size-xxl);
-  color: var(--accent-color);
 }
 
 .guess-game-left p {
