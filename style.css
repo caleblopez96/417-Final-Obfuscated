@@ -49,16 +49,14 @@
 /* typography */
 @font-face {
   font-family: "Bank Gothic";
-  src: url("https://caleblopez96.github.io/417-Final-Obfuscated/Fonts/bank-gothic-light.ttf")
-    format("truetype");
+  src: url("/Fonts/bank-gothic-light.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Supreme";
-  src: url("https://caleblopez96.github.io/417-Final-Obfuscated/Fonts/SUPRRG__.TTF")
-    format("truetype");
+  src: url("/Fonts/SUPRRG__.TTF") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -338,8 +336,8 @@ body.night .nav-links a:hover {
   flex-direction: column;
   gap: var(--spacing-lg);
   margin: var(--spacing-lg) 0;
-
   border-radius: var(--border-radius-lg);
+  padding: var(--spacing-lg);
 }
 
 #about h2 {
@@ -533,8 +531,8 @@ body.night .guess-game-left {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 350px; /* Keep as is */
-  max-height: 350px; /* Keep as is */
+  min-height: 350px;
+  max-height: 350px;
   padding: var(--spacing-md);
   box-shadow: var(--shadow-lg);
   border-radius: var(--border-radius-lg);
@@ -937,7 +935,7 @@ body.night #contactForm {
 
 #contactForm h3 {
   margin-top: 0;
-  margin: var(--spacing-md) 0;
+  margin-bottom: var(--spacing-md);
   color: var(--accent-color);
   font-size: var(--font-size-lg);
   text-align: center;
