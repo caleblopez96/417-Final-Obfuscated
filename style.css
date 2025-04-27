@@ -505,6 +505,7 @@ body.day #guessing-game {
   max-height: 350px;
   padding: var(--spacing-md);
   border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 body.night .guess-game-left {
@@ -1208,7 +1209,6 @@ footer p {
     width: 50%;
     padding-right: var(--spacing-lg);
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.05);
   }
 
   .guessing-game-right {
