@@ -499,11 +499,10 @@ body.day #guessing-game {
 
 .guess-game-left {
   width: 100%;
-  text-align: center;
   box-shadow: var(--shadow-lg);
-  min-height: 350px;
-  max-height: 350px;
-  padding: var(--spacing-md);
+  min-height: 500px;
+  max-height: 500px;
+  padding: var(--spacing-lg);
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.05);
 }
@@ -514,8 +513,6 @@ body.night .guess-game-left {
 }
 
 .guess-game-left h2 {
-  margin-top: 0;
-  margin-bottom: 1.5rem;
   font-size: var(--font-size-xxl);
 }
 
@@ -530,9 +527,9 @@ body.night .guess-game-left {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 350px;
-  max-height: 350px;
-  padding: var(--spacing-md);
+  min-height: 500px;
+  max-height: 500px;
+  padding: var(--spacing-lg);
   box-shadow: var(--shadow-lg);
   border-radius: var(--border-radius-lg);
   background-color: rgba(0, 0, 0, 0.05);
@@ -543,9 +540,13 @@ body.night .guessing-game-right {
   background-color: rgba(255, 255, 255, 0.05);
 }
 
-.guessing-game-right p {
+.guessing-game-right h2 {
   font-weight: 600;
-  margin-bottom: var(--spacing-md);
+  margin: 0;
+}
+
+.guessing-game-right p {
+  padding: 1rem 0;
 }
 
 .guessing-game-right button {
@@ -813,7 +814,7 @@ input[type="checkbox"] {
   align-items: stretch;
   justify-content: space-between;
   box-shadow: var(--shadow-lg);
-  padding: var(--spacing-md);
+  padding: var(--spacing-lg);
   background-color: rgba(0, 0, 0, 0.05);
   border-radius: var(--border-radius-lg);
 }
@@ -855,8 +856,8 @@ body.night .contact-container {
 .contact-container,
 #contactForm {
   width: 100%;
-  min-height: 750px;
-  max-height: 750px;
+  min-height: 800px;
+  max-height: 800px;
 }
 
 .contact-container h2 {
@@ -919,7 +920,7 @@ body.night .contact-container li a {
 /* form */
 #contactForm {
   background: rgba(0, 0, 0, 0.05);
-  padding: var(--spacing-md);
+  padding: var(--spacing-lg);
   border-radius: var(--border-radius-lg);
   box-shadow: var(--shadow-lg);
   width: 100%;
@@ -1269,15 +1270,8 @@ footer p {
     align-items: center;
   }
 
-  .guess-game-left {
-    width: 50%;
-    padding-right: var(--spacing-xl);
-    text-align: left;
-  }
-
   .guessing-game-right {
     width: 50%;
-    padding: var(--spacing-lg);
   }
 
   .guess-game-left h2 {
