@@ -72,9 +72,8 @@ h3 {
 h1 {
   font-size: var(--font-size-xxxl);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  margin-bottom: 1.5rem;
+  padding: 0 1rem;
   line-height: 5rem;
-  padding: 1rem;
 }
 
 h2 {
@@ -267,6 +266,12 @@ body.night .nav-links a:hover {
   text-align: center;
   color: var(--light-text);
   overflow: hidden;
+}
+
+#hero p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-family: var(--quote-font);
 }
 
 .video-container {
