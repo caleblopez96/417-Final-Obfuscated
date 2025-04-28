@@ -646,7 +646,7 @@ body.night #guess {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: var(--spacing-md);
+  gap: var(--spacing-lg);
   margin: var(--spacing-lg) 0;
   place-items: stretch;
 }
@@ -675,7 +675,6 @@ body.day .product-card {
 .product-card img {
   object-fit: contain;
   height: 220px;
-  border-radius: var(--border-radius-sm);
   margin-bottom: var(--spacing-md);
   padding: var(--spacing-sm);
 }
